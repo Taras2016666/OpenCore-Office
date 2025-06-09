@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             x:Class="OpenCoreOffice.MainPage"
+             Title="OpenCore Office">
+    <VerticalStackLayout Spacing="25" Padding="30">
+        <Label Text="OpenCore Office"
+               FontSize="32"
+               HorizontalOptions="Center" />
+        <Button Text="Text Editor"
+                Clicked="OnTextEditorClicked"/>
+        <Button Text="Spreadsheet"
+                Clicked="OnSpreadsheetClicked"/>
+        <Button Text="Presentation"
+                Clicked="OnPresentationClicked"/>
+    </VerticalStackLayout>
+</ContentPage>

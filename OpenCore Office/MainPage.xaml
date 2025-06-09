@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:OpenCore_Office"
+             x:Class="OpenCore_Office.MainPage"
+             BackgroundColor="#f4f6fb">
+    <ContentPage.BindingContext>
+        <local:LocalizationResourceManager x:Name="Loc" />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout Padding="40,60" Spacing="32">
+        <Label Text="{Binding [AppTitle]}"
+               FontSize="36"
+               FontAttributes="Bold"
+               TextColor="#2d3a4a"
+               HorizontalOptions="Center" />
+        <Label Text="{Binding [AppSubtitle]}"
+               FontSize="18"
+               TextColor="#4a6073"
+               HorizontalOptions="Center" />
+        <Frame Padding="24" BackgroundColor="White" CornerRadius="18" HasShadow="True">
+            <VerticalStackLayout Spacing="18">
+                <Button Text="{Binding [TextEditor]}"
+                        Clicked="OnTextEditorClicked"
+                        FontSize="20"
+                        BackgroundColor="#3b82f6"
+                        TextColor="White"
+                        CornerRadius="12"
+                        HeightRequest="54"/>
+                <Button Text="{Binding [Spreadsheet]}"
+                        Clicked="OnSpreadsheetClicked"
+                        FontSize="20"
+                        BackgroundColor="#10b981"
+                        TextColor="White"
+                        CornerRadius="12"
+                        HeightRequest="54"/>
+                <Button Text="{Binding [Presentation]}"
+                        Clicked="OnPresentationClicked"
+                        FontSize="20"
+                        BackgroundColor="#f59e42"
+                        TextColor="White"
+                        CornerRadius="12"
+                        HeightRequest="54"/>
+                <Button Text="{Binding [Settings]}"
+                        Clicked="OnSettingsClicked"
+                        FontSize="18"
+                        BackgroundColor="#e5e7eb"
+                        TextColor="#2d3a4a"
+                        CornerRadius="12"
+                        HeightRequest="48"/>
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCoreOffice", "OpenCoreOffice\OpenCoreOffice.csproj", "{D1A1B1C1-1234-4A1B-9B1C-1A1B1C1D1E1F}"
+EndProject
+Project("{60dc8134-eba5-43b8-bcc9-bb4bc16c2548}") = "OpenCoreOffice.Wpf", "OpenCoreOffice.Wpf\OpenCoreOffice.Wpf.csproj", "{B2B2B2B2-2222-4B2B-9B2B-2B2B2B2B2B2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1A1B1C1-1234-4A1B-9B1C-1A1B1C1D1E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A1B1C1-1234-4A1B-9B1C-1A1B1C1D1E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A1B1C1-1234-4A1B-9B1C-1A1B1C1D1E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A1B1C1-1234-4A1B-9B1C-1A1B1C1D1E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B2B2B2-2222-4B2B-9B2B-2B2B2B2B2B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B2B2B2-2222-4B2B-9B2B-2B2B2B2B2B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B2B2B2-2222-4B2B-9B2B-2B2B2B2B2B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B2B2B2-2222-4B2B-9B2B-2B2B2B2B2B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

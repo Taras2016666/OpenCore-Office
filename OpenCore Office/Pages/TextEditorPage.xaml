@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:OpenCore_Office"
+             x:Class="OpenCore_Office.Pages.TextEditorPage">
+    <ContentPage.BindingContext>
+        <local:LocalizationResourceManager x:Name="Loc" />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout Padding="10">
+        <Label Text="{Binding [TextEditorTitle]}" FontSize="24" />
+        <Editor x:Name="TextEditor" HeightRequest="400" />
+        <HorizontalStackLayout Spacing="10">
+            <Button Text="{Binding [Open]}" Clicked="OnOpenClicked"/>
+            <Button Text="{Binding [Save]}" Clicked="OnSaveClicked"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

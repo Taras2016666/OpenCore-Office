@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>OpenCore Office</value>
+  </data>
+  <data name="AppSubtitle" xml:space="preserve">
+    <value>Your modern, cross-platform office suite</value>
+  </data>
+  <data name="TextEditor" xml:space="preserve">
+    <value>Text Editor</value>
+  </data>
+  <data name="Spreadsheet" xml:space="preserve">
+    <value>Spreadsheet</value>
+  </data>
+  <data name="Presentation" xml:space="preserve">
+    <value>Presentation</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="TextEditorTitle" xml:space="preserve">
+    <value>Text Editor</value>
+  </data>
+  <data name="SpreadsheetTitle" xml:space="preserve">
+    <value>Spreadsheet</value>
+  </data>
+  <data name="SpreadsheetComing" xml:space="preserve">
+    <value>(Spreadsheet functionality coming soon)</value>
+  </data>
+  <data name="PresentationTitle" xml:space="preserve">
+    <value>Presentation</value>
+  </data>
+  <data name="PresentationComing" xml:space="preserve">
+    <value>(Presentation functionality coming soon)</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Ukrainian" xml:space="preserve">
+    <value>Ukrainian</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+</root>
